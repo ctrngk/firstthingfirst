@@ -13,7 +13,7 @@ curl -u 'ctrngk' https://api.github.com/user/repos -d '{"name":"hello-repo"}'
 ################################################ push a directory
 cd ..
 git init
-git add .
+git add .                (git reset) to undo
 git commit -m "xxxx"
 git remote -v
 git remote add origin https://github.com/ctrngk/hello-repo.git
